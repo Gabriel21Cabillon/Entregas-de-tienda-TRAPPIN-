@@ -38,36 +38,9 @@ header h2 {
 
 /* NAVEGACION */
 
-.barraNavegacion {
-    position:relative ;
-    list-style-type: none;
-    overflow: hidden;
-    background-color:burlywood;
-    border: solid 1px rgb(211, 162, 98);
-    cursor: pointer;
-    grid-area: navegacion;
-}
-
-.Secciones {
-    display: inline-block;
-    padding: 24px;
-}
-
-.Cliente {
-    display: inline-block;
-    padding: 24px;
-    /* position: relative; */
-    left: 1140px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: white;
-}
-
-nav ul li:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-}
+.colornavbar {
+    background-color: #f5cba7;
+    }
 
 /* CONTACTO */
 
