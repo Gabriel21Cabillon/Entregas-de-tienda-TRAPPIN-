@@ -95,13 +95,14 @@ input, textarea {
 
 .Whatsapp {
     left: 93%;
-    top: 80%;
+    top: 75%;
     position: fixed;
     cursor: pointer;
 }
 
 /* PRODUCTOS */
 
+/* INDEX */
 .padreFlex {
     background-image: url(../img/imagen\ principal.jpg);
     padding: 200px 20px 20px 150px;
@@ -114,9 +115,11 @@ input, textarea {
     align-items: center;
 }
 
-.padreFlex1 {
+/* ACCESSORIES */
+
+.flexCarteras {
     background-image: url(../img/Accessories/accessoriesFondo1.jpg);
-    padding: 250px 20px 20px 150px;
+    padding: 320px 20px 20px 150px;
     border: 2px black solid;
     border-radius: 10px;
     /* margin: 5px; */
@@ -126,9 +129,35 @@ input, textarea {
     align-items: center;
 }
 
-.padreFlex2 {
+.flexAros {
+        background-image: url(../img/Accessories/accessoriesFondo2.jpg);
+        padding: 140px 20px 20px 150px;
+        border: 2px black solid;
+        border-radius: 10px;
+        /* margin: 5px; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+}
+
+.flexReloj {
+    background-image: url(../img/Accessories/accessoriesFondo3.jpg);
+    padding: 140px 20px 20px 150px;
+    border: 2px black solid;
+    border-radius: 10px;
+    /* margin: 5px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* WOMEN */
+
+.flexVestidos {
     background-image: url(../img/Women/womenFondo1.jpg);
-    padding: 250px 20px 20px 150px;
+    padding: 320px 20px 20px 150px;
     border: 2px black solid;
     border-radius: 10px;
     /* margin: 5px; */
@@ -138,9 +167,9 @@ input, textarea {
     align-items: center;
 }
 
-.padreFlex3 {
-    background-image: url(../img/Men/menFondo1.jpg);
-    padding: 250px 20px 20px 150px;
+.flexFaldas {
+    background-image: url(../img/Women/womenFondo2.jpg);
+    padding: 140px 20px 20px 150px;
     border: 2px black solid;
     border-radius: 10px;
     /* margin: 5px; */
@@ -149,10 +178,61 @@ input, textarea {
     flex-wrap: wrap;
     align-items: center;
 }
+
+.flexBikinis {
+    background-image: url(../img/Women/womenFondo3.jpg);
+    padding: 140px 20px 20px 150px;
+    border: 2px black solid;
+    border-radius: 10px;
+    /* margin: 5px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* MEN */
+
+.flexCamisas {
+    background-image: url(../img/Men/menFondo1.jpg);
+    padding: 320px 20px 20px 150px;
+    border: 2px black solid;
+    border-radius: 10px;
+    /* margin: 5px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.flexSudaderas {
+    background-image: url(../img/Men/menFondo2.jpg );
+    padding: 140px 20px 20px 150px;
+    border: 2px black solid;
+    border-radius: 10px;
+    /* margin: 5px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.flexJean {
+    background-image: url(../img/Men/menFondo3.jpg );
+    padding: 140px 20px 20px 150px;
+    border: 2px black solid;
+    border-radius: 10px;
+    /* margin: 5px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 
 .padreFlex4 {
     background-image: url(../img/Contact/Contact1.jpg);
-    padding: 950px 20px 25px 150px;
+    padding: 320px 20px 25px 150px;
     border: 2px black solid;
     border-radius: 10px;
     display: flex;
