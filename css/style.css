@@ -14,7 +14,7 @@ header {
     background-color: rgb(228, 174, 103);
     position:fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 2000;
     grid-area:header;
 }
 
@@ -36,11 +36,12 @@ header h2 {
     padding-left: 25px;
 }
 
+
 /* NAVEGACION */
 
 .colornavbar {
     background-color: #f5cba7;
-    }
+}
 
 /* CONTACTO */
 
@@ -102,12 +103,59 @@ input, textarea {
 
 /* PRODUCTOS */
 
+/* SUBTITULOS DE PRODUCTOS */
+
+.contenedor {
+
+    background-color:skyblue;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    color: rgb(8, 8, 7);
+    margin: 240px 200px 100px 900px;
+    width: 200px;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.30);
+    -moz-box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.49);
+    box-shadow: 5px 10px 17px -1px rgba(0,0,0,0.49);
+    grid-area: centro;
+}
+
+
+.contenedor2 {
+    background-color:skyblue;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    color: rgb(8, 8, 7);
+    margin: 960px 200px 100px 900px;
+    width: 200px;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.30);
+    -moz-box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.49);
+    box-shadow: 5px 10px 17px -1px rgba(0,0,0,0.49);
+    grid-area: izquierda;
+}
+
+.contenedor3 {
+    background-color:skyblue;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    color: rgb(8, 8, 7);
+    margin: 1710px 200px 100px 900px;
+    width: 200px;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.30);
+    -moz-box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.49);
+    box-shadow: 5px 10px 17px -1px rgba(0,0,0,0.49);
+    grid-area: izquierda;
+}
+
 /* INDEX */
+
 .padreFlex {
     background-image: url(../img/imagen\ principal.jpg);
-    padding: 200px 20px 20px 150px;
-    border: 2px black solid;
-    border-radius: 10px;
+    padding: 420px 20px 20px 150px;
+    /* border: 2px black solid;
+    border-radius: 10px; */
     /* margin: 5px; */
     display: flex;
     flex-direction: row;
@@ -120,8 +168,8 @@ input, textarea {
 .flexCarteras {
     background-image: url(../img/Accessories/accessoriesFondo1.jpg);
     padding: 320px 20px 20px 150px;
-    border: 2px black solid;
-    border-radius: 10px;
+    /* border: 1px rgb(255, 255, 255) solid; */
+    /* border-radius: 10px; */
     /* margin: 5px; */
     display: flex;
     flex-direction: row;
@@ -132,8 +180,8 @@ input, textarea {
 .flexAros {
         background-image: url(../img/Accessories/accessoriesFondo2.jpg);
         padding: 140px 20px 20px 150px;
-        border: 2px black solid;
-        border-radius: 10px;
+        /* border: 2px black solid;
+        border-radius: 10px; */
         /* margin: 5px; */
         display: flex;
         flex-direction: row;
@@ -144,8 +192,8 @@ input, textarea {
 .flexReloj {
     background-image: url(../img/Accessories/accessoriesFondo3.jpg);
     padding: 140px 20px 20px 150px;
-    border: 2px black solid;
-    border-radius: 10px;
+    /* border: 2px black solid;
+    border-radius: 10px; */
     /* margin: 5px; */
     display: flex;
     flex-direction: row;
@@ -158,8 +206,8 @@ input, textarea {
 .flexVestidos {
     background-image: url(../img/Women/womenFondo1.jpg);
     padding: 320px 20px 20px 150px;
-    border: 2px black solid;
-    border-radius: 10px;
+    /* border: 2px black solid;
+    border-radius: 10px; */
     /* margin: 5px; */
     display: flex;
     flex-direction: row;
@@ -170,8 +218,8 @@ input, textarea {
 .flexFaldas {
     background-image: url(../img/Women/womenFondo2.jpg);
     padding: 140px 20px 20px 150px;
-    border: 2px black solid;
-    border-radius: 10px;
+    /* border: 2px black solid;
+    border-radius: 10px; */
     /* margin: 5px; */
     display: flex;
     flex-direction: row;
@@ -182,8 +230,8 @@ input, textarea {
 .flexBikinis {
     background-image: url(../img/Women/womenFondo3.jpg);
     padding: 140px 20px 20px 150px;
-    border: 2px black solid;
-    border-radius: 10px;
+    /* border: 2px black solid;
+    border-radius: 10px; */
     /* margin: 5px; */
     display: flex;
     flex-direction: row;
@@ -196,8 +244,8 @@ input, textarea {
 .flexCamisas {
     background-image: url(../img/Men/menFondo1.jpg);
     padding: 320px 20px 20px 150px;
-    border: 2px black solid;
-    border-radius: 10px;
+    /* border: 2px black solid;
+    border-radius: 10px; */
     /* margin: 5px; */
     display: flex;
     flex-direction: row;
@@ -208,8 +256,8 @@ input, textarea {
 .flexSudaderas {
     background-image: url(../img/Men/menFondo2.jpg );
     padding: 140px 20px 20px 150px;
-    border: 2px black solid;
-    border-radius: 10px;
+    /* border: 2px black solid;
+    border-radius: 10px; */
     /* margin: 5px; */
     display: flex;
     flex-direction: row;
@@ -220,8 +268,8 @@ input, textarea {
 .flexJean {
     background-image: url(../img/Men/menFondo3.jpg );
     padding: 140px 20px 20px 150px;
-    border: 2px black solid;
-    border-radius: 10px;
+    /* border: 2px black solid;
+    border-radius: 10px; */
     /* margin: 5px; */
     display: flex;
     flex-direction: row;
@@ -230,11 +278,11 @@ input, textarea {
 }
 
 
-.padreFlex4 {
+.fondoFlex {
     background-image: url(../img/Contact/Contact1.jpg);
     padding: 980px 20px 25px 150px;
-    border: 2px black solid;
-    border-radius: 10px;
+    /* border: 2px black solid;
+    border-radius: 10px; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
