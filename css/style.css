@@ -241,5 +241,5 @@ input, textarea {
 @media (max-width: 300px) {
   .contenedor {
     width: 50%;
-    margin-left: 100px;
+    margin-left: 75px;
     margin-right: auto; } }
