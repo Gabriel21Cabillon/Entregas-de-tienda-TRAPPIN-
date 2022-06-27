@@ -145,7 +145,7 @@ input, textarea {
 /* PRODUCTOS */
 /*INDEX*/
 .container-fluid0 .row {
-  background-image: url(/img/imagenprincipal.jpg);
+  background-image: url(img/imagenprincipal.jpg);
   align-items: center; }
 
 .container-fluid0 img {
