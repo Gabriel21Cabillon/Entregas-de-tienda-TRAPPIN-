@@ -227,18 +227,18 @@ input, textarea {
 @media (max-width: 1455px) {
   .contenedor {
     width: 40%;
-    margin-left: 190px;
+    margin-left: 240px;
     margin-right: auto; } }
 
 /* IPAD */
 @media (max-width: 768px) {
   .contenedor {
     width: 45%;
-    margin-left: 160px;
+    margin-left: 90px;
     /* margin-right: auto; */ } }
 
-/* IPHONE */
-@media (min-width: 300px) {
+/* PHONE */
+@media (max-width: 300px) {
   .contenedor {
     width: 50%;
     margin-left: 80px;
