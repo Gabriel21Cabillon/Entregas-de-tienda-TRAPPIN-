@@ -177,7 +177,7 @@ input, textarea {
 /* PRODUCTOS */
 /*INDEX*/
 .container-fluid0 .row {
-  background-image: url(../img/imagenprincipal.jpg);
+  background-image: url(../img/imagenIndex.jpg);
   align-items: center; }
 
 .container-fluid0 img {
@@ -199,7 +199,7 @@ input, textarea {
 
 /*OTRAS PAGINAS*/
 .container-fluid1 .row {
-  background-image: url(../img/imagenprincipalbw.jpg);
+  background-image: url(../img/imagenprincipal1.jpg);
   background-size: cover;
   align-items: center; }
 
@@ -209,7 +209,7 @@ input, textarea {
   align-items: center; }
 
 .container-fluid2 .row {
-  background-image: url(../img/imagenPrincipal3.jpg);
+  background-image: url(../img/imagenPrincipal2.jpg);
   background-size: cover;
   align-items: center; }
 
@@ -219,7 +219,7 @@ input, textarea {
   align-items: center; }
 
 .container-fluid3 .row {
-  background-image: url(../img/imagenPrincipal2.jpg);
+  background-image: url(../img/imagenPrincipal3.jpg);
   background-size: cover;
   align-items: center; }
 
