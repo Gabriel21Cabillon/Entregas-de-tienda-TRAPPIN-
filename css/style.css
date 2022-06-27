@@ -184,7 +184,7 @@ input, textarea {
   box-shadow: -3px 6px 17px 1px rgba(0, 0, 0, 0.75); }
 
 .container-fluid2 .row {
-  background-image: url(/img/diseno-de-moda.jpg);
+  background-image: url(../img/diseno-de-moda.jpg);
   align-items: center; }
 
 .container-fluid2 img {
@@ -201,7 +201,7 @@ input, textarea {
   box-shadow: -3px 6px 17px 1px rgba(0, 0, 0, 0.75); }
 
 .container-fluid3 .row {
-  background-image: url(/img/imagenprincipalbw3.jpg);
+  background-image: url(../img/imagenprincipalbw3.jpg);
   align-items: center; }
 
 .container-fluid3 img {
