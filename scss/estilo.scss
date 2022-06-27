@@ -244,10 +244,10 @@ input, textarea {
 }
 
 /* IPHONE */
-@media (max-width:300px){
+@media (min-width:300px){
   .contenedor {
       width: 50%;
-      margin-left: 75px;
+      margin-left: 80px;
       margin-right: auto;
   }
 
