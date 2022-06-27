@@ -82,6 +82,7 @@ body {
 h4 {
   color: #080807;
   background-color: skyblue;
+  background-size: auto;
   text-align: center;
   max-width: 100%;
   padding: 200px 0px 20px 0px;
@@ -90,6 +91,7 @@ h4 {
 h5 {
   color: #080807;
   background-color: skyblue;
+  background-size: auto;
   text-align: center;
   max-width: 100%;
   padding: 20px 0px 20px 0px;
@@ -145,7 +147,7 @@ input, textarea {
 /* PRODUCTOS */
 /*INDEX*/
 .container-fluid0 .row {
-  background-image: url(img/imagenprincipal.jpg);
+  background-image: url(../img/imagenprincipal.jpg);
   align-items: center; }
 
 .container-fluid0 img {
@@ -168,6 +170,7 @@ input, textarea {
 /*OTRAS PAGINAS*/
 .container-fluid1 .row {
   background-image: url(../img/imagenprincipalbw.jpg);
+  background-size: cover;
   align-items: center; }
 
 .container-fluid1 img {
@@ -185,6 +188,7 @@ input, textarea {
 
 .container-fluid2 .row {
   background-image: url(../img/imagenPrincipal3.jpg);
+  background-size: cover;
   align-items: center; }
 
 .container-fluid2 img {
@@ -202,6 +206,7 @@ input, textarea {
 
 .container-fluid3 .row {
   background-image: url(../img/imagenPrincipal2.jpg);
+  background-size: cover;
   align-items: center; }
 
 .container-fluid3 img {
@@ -221,7 +226,9 @@ input, textarea {
   margin: 240px 200px 100px 650px; }
 
 .container {
-  max-width: 100%; }
+  margin: 0px;
+  max-width: 100%;
+  z-index: 200; }
 
 /* PC */
 @media (max-width: 1455px) {
