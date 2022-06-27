@@ -1,13 +1,17 @@
+@import "extend";
+@import "mixin";
+@import "maps";
+
+
 header {
     color: white;
-    background-color: rgb(228, 174, 103);
+    background-color: rgb(252, 203, 126);
     position: fixed;
     width: 100%;
     z-index: 2000;
-    grid-area: header;
   
     h1 {
-      padding: 20px 0px 15px 0px;
+      padding: 10px 0px 10px 0px;
       text-align: center;
   
       a {
@@ -22,5 +26,6 @@ header {
   
     h2 {
       padding-left: 25px;
+      border-top:1px solid rgb(245, 187, 94) ;
     }
   }

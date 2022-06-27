@@ -1,0 +1,8 @@
+@import "extend";
+@import "mixin";
+@import "maps";
+
+footer {
+    background-color: map-get($estilo,color);
+    font-size: map-get($estilo,tamFuente);
+  }
