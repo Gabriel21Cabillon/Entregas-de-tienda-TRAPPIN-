@@ -1,3 +1,4 @@
+@import "variables";
 @import "header";
 @import "extend";
 @import "mixin";
@@ -11,48 +12,31 @@
   
 body {
     font-family: 'Outfit', sans-serif;
-    background-color: burlywood;
+    background-color: $color-primary;
   }
   
   /* NAVEGACION */
 
 .colornavbar {
-    background-color: #f5cba7;
+    background-color: $color-secondary;
   }
 
 // CONTENEDORES
 
 .contenedor {
-  background-color: skyblue;
-  display: inline-block;
-  position: absolute;
-  align-items: center;
-  text-align: center;
-  color: rgb(8, 8, 7);
-  padding: 0px 20px 0px 20px;
-  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.49);
-  box-shadow: 5px 10px 17px -1px rgba(0, 0, 0, 0.49);
-}
+  @extend .estiloContenedor;
+    margin: 240px 200px 100px 650px;
+  }
 
 h4 {
-  color: rgb(8, 8, 7);
-  background-color: skyblue;
-  background-size: auto;
-  text-align: center;
-  max-width: 100%;
+  @extend .estiloContenedores;
   padding: 200px 0px 20px 0px;
-  margin: 0px;
 }
 
 h5 {
-  color: rgb(8, 8, 7);
-  background-color: skyblue;
-  background-size: auto;
-  text-align: center;
-  max-width: 100%;
+  @extend .estiloContenedores;
   padding: 20px 0px 20px 0px;
-  margin: 0px;
+
 }
 
 /* CONTACTO */
@@ -119,7 +103,6 @@ input, textarea {
   
   .row {
     background-image: url(../img/imagenprincipal.jpg);
-    // background-size: cover;
     align-items: center;
   }
   
@@ -129,10 +112,9 @@ input, textarea {
     align-items: center;
   }   
   .precio {
-    // max-width: 100%;
     padding: 10px 0px 0px 0px;
     text-align: center;
-    background-color: #f5cba7;
+    background-color: $color-secondary;
     -webkit-box-shadow: -3px 6px 17px 1px rgba(0,0,0,0.75);
     -moz-box-shadow: -3px 6px 17px 1px rgba(0,0,0,0.75);
     box-shadow: -3px 6px 17px 1px rgba(0,0,0,0.75);
@@ -160,13 +142,7 @@ input, textarea {
   }
   
   .precio {
-    // max-width: 100%;
-    padding: 10px 0px 0px 0px;
-    text-align: center;
-    background-color: #f5cba7;
-    -webkit-box-shadow: -3px 6px 17px 1px rgba(0,0,0,0.75);
-    -moz-box-shadow: -3px 6px 17px 1px rgba(0,0,0,0.75);
-    box-shadow: -3px 6px 17px 1px rgba(0,0,0,0.75);
+    @extend .precios;
   }
 }
 
@@ -185,13 +161,7 @@ input, textarea {
   }
   
   .precio {
-    // max-width: 100%;
-    padding: 10px 0px 0px 0px;
-    text-align: center;
-    background-color: #f5cba7;
-    -webkit-box-shadow: -3px 6px 17px 1px rgba(0,0,0,0.75);
-    -moz-box-shadow: -3px 6px 17px 1px rgba(0,0,0,0.75);
-    box-shadow: -3px 6px 17px 1px rgba(0,0,0,0.75);
+    @extend .precios;
   }
 }
 
@@ -210,27 +180,15 @@ input, textarea {
   }
   
   .precio {
-    // max-width: 100%;
-    padding: 10px 0px 0px 0px;
-    text-align: center;
-    background-color: #f5cba7;
-    -webkit-box-shadow: -3px 6px 17px 1px rgba(0,0,0,0.75);
-    -moz-box-shadow: -3px 6px 17px 1px rgba(0,0,0,0.75);
-    box-shadow: -3px 6px 17px 1px rgba(0,0,0,0.75);
+    @extend .precios;
   }
 }
 
-// CONTENEDOR INDEX
-.contenedor {
-  @extend .estiloContenedor;
-    margin: 240px 200px 100px 650px;
-  }
-
 // FOOTER
 .container {
-  margin:0px ;
-  max-width:100%;
-  z-index: 200;
+  width:100%;
+  margin:0 auto;
+  position:relative;
 }
 
 /* PC */
@@ -248,6 +206,7 @@ input, textarea {
       width: 45%;
       margin-left: 90px;
       /* margin-right: auto; */
+
   }
 
 }

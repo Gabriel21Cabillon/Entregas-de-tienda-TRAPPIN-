@@ -1,5 +1,7 @@
+@import "variables";
+
 .estiloContenedor {
-    background-color: skyblue;
+    background-color: $color-background;
     display: inline-block;
     position: absolute;
     align-items: center;
@@ -9,4 +11,23 @@
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.49);
     box-shadow: 5px 10px 17px -1px rgba(0, 0, 0, 0.49);
+}
+
+.estiloContenedores {
+    color: rgb(8, 8, 7);
+    background-color: $color-background;
+    background-size: auto;
+    text-align: center;
+    max-width: 100%;
+    padding: 200px 0px 20px 0px;
+    margin: 0px;
+}
+
+.precios {
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+    background-color: $color-secondary;
+    -webkit-box-shadow: -3px 6px 17px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -3px 6px 17px 1px rgba(0,0,0,0.75);
+    box-shadow: -3px 6px 17px 1px rgba(0,0,0,0.75);
 }
